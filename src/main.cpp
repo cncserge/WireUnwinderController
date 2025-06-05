@@ -96,8 +96,8 @@ void showMenu() {
 }
 
 void applyStepperSettings() {
-    stepper.setMaxSpeed(settings.speed * 1000.);  // скорость условная
-    stepper.setAcceleration(settings.accel * 10.);
+    stepper.setMaxSpeed(settings.speed * 1500.);  // скорость условная
+    stepper.setAcceleration(settings.accel * 7.);
 }
 
 void runCycle() {
