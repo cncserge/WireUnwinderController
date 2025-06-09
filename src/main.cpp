@@ -230,4 +230,12 @@ void loop() {
         showMenu();
         delay(150);
     }
+{ // debug print state inputs
+    delay(150);
+    lcd.setCursor(14, 0);
+    lcd.print(button(BUTTON_PUSK));
+    lcd.setCursor(15, 0);
+    lcd.print(button(AUTO_PIN));
+    
+}
 } 
